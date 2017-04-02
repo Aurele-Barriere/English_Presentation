@@ -22,6 +22,7 @@
 % Colors %
 %%%%%%%%%%
 \RequirePackage{xcolor}
+\RequirePackage{colortbl}
 \definecolor{white}{RGB}{255,255,255}
 \definecolor{darkgray}{HTML}{333333}
 \definecolor{gray}{HTML}{4D4D4D}
