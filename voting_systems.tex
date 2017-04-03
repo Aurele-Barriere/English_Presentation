@@ -60,7 +60,6 @@
     9  & 5 & 2 & 4 & 3 & 1 \\
     3  & 5 & 4 & 2 & 3 & 1 \\ \hline
   \end{tabular}
-  \vfill
 \end{frame}
 
 \begin{frame}{\secname}
@@ -76,11 +75,9 @@
     9  & 5 & 2 & 4 & 3 & 1 \\
     3  & 5 & 4 & 2 & 3 & 1 \\ \hline
   \end{tabular}
-  
-  \vfill
-  \begin{tabular}{c c c c c}
-  Majority & & & & \\
-  A & & & &
+  \hfill
+  \begin{tabular}{c c}
+  Majority & A \\
   \end{tabular}
 \end{frame}
 
@@ -99,11 +96,10 @@
     3  & 5 & 4 & 2 & 3 & 1 \\ \hline
        &32 &{\bf \color{orange} 66} & & &
   \end{tabular}
-  
-  \vfill
-  \begin{tabular}{c c c c c}
-  Majority & Two turns & & & \\
-  A & B & & &
+  \hfill
+  \begin{tabular}{c c}
+  Majority & A \\
+  Two turns & B
   \end{tabular}
 \end{frame}
 
@@ -120,11 +116,10 @@
     3  & 5 & 4 & 2 & 3 & 1 \\ \hline
        &32 & 21 & 17 &16 &{\bf \color{red} 12}
   \end{tabular}
-  
-  \vfill
-  \begin{tabular}{c c c c c}
-  Majority & Two turns & & & \\
-  A & B & & &
+  \hfill
+  \begin{tabular}{c c}
+  Majority & A \\
+  Two turns & B
   \end{tabular}
 \end{frame}
 
@@ -141,11 +136,10 @@
     3  & 5 & 4 & 2 & 3 \\ \hline
        & - & - & - & -
   \end{tabular}
-  
-  \vfill
-  \begin{tabular}{c c c c c}
-  Majority & Two turns & & & \\
-  A & B & & &
+  \hfill
+  \begin{tabular}{c c}
+  Majority & A \\
+  Two turns & B
   \end{tabular}
 \end{frame}
 \begin{frame}{\secname}
@@ -161,11 +155,10 @@
     3  & 4 & 3 & 1 & 2 \\ \hline
        & - & - & - & -
   \end{tabular}
-  
-  \vfill
-  \begin{tabular}{c c c c c}
-  Majority & Two turns & & & \\
-  A & B & & &
+  \hfill
+  \begin{tabular}{c c}
+  Majority & A \\
+  Two turns & B
   \end{tabular}
 \end{frame}
 \begin{frame}{\secname}
@@ -181,11 +174,10 @@
     3  & 4 & 3 & 1 & 2 \\ \hline
        &32 &30 &20 &{\bf \color{red} 16}
   \end{tabular}
-  
-  \vfill
-  \begin{tabular}{c c c c c}
-  Majority & Two turns & & & \\
-  A & B & & &
+  \hfill
+  \begin{tabular}{c c}
+  Majority & A \\
+  Two turns & B
   \end{tabular}
 \end{frame}
 \begin{frame}{\secname}
@@ -201,11 +193,10 @@
     3  & 3 & 2 & 1 \\ \hline
        & 32 & {\bf \color{red} 30} & 36
   \end{tabular}
-  
-  \vfill
-  \begin{tabular}{c c c c c}
-  Majority & Two turns & & & \\
-  A & B & & &
+  \hfill
+  \begin{tabular}{c c}
+  Majority & A \\
+  Two turns & B
   \end{tabular}
 \end{frame}
 \begin{frame}{\secname}
@@ -221,11 +212,10 @@
     3  & 2 & 1 \\ \hline
        &{\bf \color{red} 32} &66
   \end{tabular}
-  
-  \vfill
-  \begin{tabular}{c c c c c}
-  Majority & Two turns & & & \\
-  A & B & & &
+  \hfill
+  \begin{tabular}{c c}
+  Majority & A \\
+  Two turns & B
   \end{tabular}
 \end{frame}
 \begin{frame}{\secname}
@@ -240,29 +230,24 @@
     9  & 1 \\
     3  & 1 \\ \hline
   \end{tabular}
-  
-  \vfill
-  \begin{tabular}{c c c c c}
-  Majority & Two turns & Elimination & & \\
-  A & B & C & &
+  \hfill
+  \begin{tabular}{c c}
+  Majority & A \\
+  Two turns & B \\
+  Elimination & C
   \end{tabular}
 \end{frame}
 
 \begin{frame}{\secname}
   \framesubtitle{Points}
   \centering
-  \begin{minipage}[l]{0.3\linewidth}
     \begin{block}{Points}
-      \begin{itemize}
-        \item 1st $\to$ 5pt
-        \item 2nd $\to$ 4pt
-        \item 3rd $\to$ 3pt
-        \item 4th $\to$ 2pt
-        \item 5th $\to$ 1pt
-      \end{itemize}
+         1st $\to$ 5pt
+        \hspace{10px} 2nd $\to$ 4pt
+        \hspace{10px} 3rd $\to$ 3pt
+        \hspace{10px} 4th $\to$ 2pt
+        \hspace{10px} 5th $\to$ 1pt
     \end{block}
-  \end{minipage}\hspace{20px}
-  \begin{minipage}[l]{0.5\linewidth}
     \begin{tabular}{r | c c c >{\columncolor{orange!20!white}}c c |}
          & A & B & C & D & E \\ \hline
       32 & 1 & 5 & 4 & 2 & 3 \\
@@ -273,13 +258,13 @@
       3  & 5 & 4 & 2 & 3 & 1 \\ \hline
          &226&279&285&{\bf \color{orange}341}&339
     \end{tabular}
-  \end{minipage}
-  
-  \vfill
-  \begin{tabular}{c c c c c}
-  Majority & Two turns & Elimination & Points & \\
-  A & B & C & D &
-  \end{tabular}
+    \hfill
+    \begin{tabular}{c c}
+    Majority & A \\
+    Two turns & B \\
+    Elimination & C \\
+    Points & D
+    \end{tabular}
 \end{frame}
 
 \begin{frame}{\secname}
@@ -295,11 +280,12 @@
     3  & 5 & 4 & 2 & 3 & 1 \\ \hline
        & 32 &  &   &   &66
   \end{tabular}
-  
-  \vfill
-  \begin{tabular}{c c c c c}
-  Majority & Two turns & Elimination & Points & \\
-  A & B & C & D &
+  \hfill
+  \begin{tabular}{c c}
+  Majority & A \\
+  Two turns & B \\
+  Elimination & C \\
+  Points & D
   \end{tabular}
 \end{frame}
 
@@ -316,11 +302,12 @@
     3  & 5 & 4 & 2 & 3 & 1 \\ \hline
        &   &38 &   &   &60
   \end{tabular}
-  
-  \vfill
-  \begin{tabular}{c c c c c}
-  Majority & Two turns & Elimination & Points & \\
-  A & B & C & D &
+  \hfill
+  \begin{tabular}{c c}
+  Majority & A \\
+  Two turns & B \\
+  Elimination & C \\
+  Points & D
   \end{tabular}
 \end{frame}
 
@@ -337,11 +324,12 @@
     4  & 5 & 4 & 2 & 3 & 1 \\ \hline
        &   &   &33  &   &65
   \end{tabular}
-  
-  \vfill
-  \begin{tabular}{c c c c c}
-  Majority & Two turns & Elimination & Points & \\
-  A & B & C & D &
+  \hfill
+  \begin{tabular}{c c}
+  Majority & A \\
+  Two turns & B \\
+  Elimination & C \\
+  Points & D
   \end{tabular}
 \end{frame}
 \begin{frame}{\secname}
@@ -357,11 +345,12 @@
     4  & 5 & 4 & 2 & 3 & 1 \\ \hline
        &   &   &   &48 &50
   \end{tabular}
-  
-  \vfill
-  \begin{tabular}{c c c c c}
-  Majority & Two turns & Elimination & Points & \\
-  A & B & C & D &
+  \hfill
+  \begin{tabular}{c c}
+  Majority & A \\
+  Two turns & B \\
+  Elimination & C \\
+  Points & D
   \end{tabular}
 \end{frame}
 \begin{frame}{\secname}
@@ -376,11 +365,13 @@
     9  & 5 & 2 & 4 & 3 & 1 \\
     4  & 5 & 4 & 2 & 3 & 1 \\ \hline
   \end{tabular}
-  
-  \vfill
-  \begin{tabular}{c c c c c}
-  Majority & Two turns & Elimination & Points & Duel \\
-  A & B & C & D & E
+  \hfill
+  \begin{tabular}{c c}
+  Majority & A \\
+  Two turns & B \\
+  Elimination & C \\
+  Points & D\\
+  Duel & E
   \end{tabular}
 \end{frame}
 
@@ -485,12 +476,12 @@
   \begin{exampleblock}{Binary Referendums}
     With two issues, plurality voting has every ``good'' property.
   \end{exampleblock}
-  \vill
+  \vfill
   \begin{exampleblock}{Use technology}
     Voting could be made easier.\\
     Inspiration from voting systems in other contexts (PageRank, approval voting...).
   \end{exampleblock}
-  \vill
+  \vfill
   \begin{alertblock}{Other issues}
     Some issues does not depend on the voting system.\\
     Abstention, media coverage...
