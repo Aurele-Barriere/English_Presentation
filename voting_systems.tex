@@ -5,7 +5,8 @@
 \usepackage[frenchb]{babel}
 \usepackage{graphicx}
 \usepackage{hyperref}
-
+\usepackage{amsmath}
+\usepackage{mathtools}
 
 \setbeamertemplate{navigation symbols}{}%remove navigation symbols
 
@@ -328,6 +329,22 @@
   \end{block}
  
 
+  \begin{minipage}[l]{0.48\linewidth}
+    \centering
+  \begin{tabular}{r | c c c c c}
+       & A & B & C & D & E \\ \hline
+    32 & 1 & 5 & 4 & 2 & 3 \\
+    21 & 5 & 1 & 4 & 3 & 2 \\
+    17 & 5 & 2 & 1 & 4 & 3 \\
+    16 & 5 & 4 & 2 & 1 & 3 \\
+    9  & 5 & 2 & 4 & 3 & 1 \\
+    4  & 5 & 4 & 2 & 3 & 1 \\ 
+  \end{tabular}
+  \end{minipage}
+  \begin{minipage}[r]{0.5\linewidth}
+    \centering
+    $\xmapsto\qquad A > B > C > D > E$
+  \end{minipage}
 
 \end{frame}
 
@@ -338,8 +355,7 @@
     %$\forall o_1,o_2\in O, (\forall i\in AGTS, o_1 >_i o_2) \text{ implies } o_1 >_W o_2$.\\
     {If every voter prefers A to B, then A will also be preferred to B in the result of the vote.}
   \end{block}
-
-
+  \vfill
   \begin{block}{Independence of Irrelevant Alternatives}
     %$\forall o_1,o_2\in O,\quad\forall >', >''\in L^n,$\\
     %$(\forall i\in AGTS, o_1 >'_i o_2 \text{ iff } o_1 >''_i o_2)\text{ implies }$\\
@@ -355,7 +371,7 @@
   \begin{block}{Arrow's theorem (1970)}
     If the number of candidates is greater or equal than 3, any social welfare function that is Pareto efficient and Independent of irrelevant alternatives is dictatorial.
   \end{block}
-
+  \vfill
   \begin{alertblock}{There won't be a perfect solution.}
   \end{alertblock}
 
@@ -371,7 +387,7 @@
   \begin{exampleblock}{Understanding each voting system}
     Some systems are more biased towards the median (median voter theorem).
   \end{exampleblock}
-
+  \vfill
   \begin{exampleblock}{Choose properties according to the situation}
     What properties are needed for what kind of vote.
   \end{exampleblock}
@@ -384,12 +400,12 @@
   \begin{exampleblock}{Binary Referendums}
     With two issues, plurality voting has every ``good'' property.
   \end{exampleblock}
-
+  \vill
   \begin{exampleblock}{Use technology}
     Voting could be made easier.\\
     Inspiration from voting systems in other contexts (PageRank, approval voting...).
   \end{exampleblock}
-
+  \vill
   \begin{alertblock}{Other issues}
     Some issues does not depend on the voting system.\\
     Abstention, media coverage...
