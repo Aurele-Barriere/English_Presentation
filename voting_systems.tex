@@ -33,14 +33,16 @@
 \maketitle
 \end{frame}
 
-\section{Historical Approach}
+\section{Existing systems}
 \begin{frame}{\secname}
+  US elections:
   \begin{itemize}
-  \item Bipartite systems have problems
-  \item There are many voting systems
-  \item People are never happy
-  \item We use voting in many different situations
+    \item Two candidates poorly appreciated
+    \item Misrepresentation of the peoples by the Electoral college
   \end{itemize}
+  \begin{center}
+    \includegraphics[width=\linewidth]{us.png}
+  \end{center}
   
 \end{frame}
 
@@ -57,6 +59,7 @@
     9  & 5 & 2 & 4 & 3 & 1 \\
     3  & 5 & 4 & 2 & 3 & 1 \\ \hline
   \end{tabular}
+  \vfill
 \end{frame}
 
 \begin{frame}{\secname}
@@ -71,6 +74,12 @@
     16 & 5 & 4 & 2 & 1 & 3 \\
     9  & 5 & 2 & 4 & 3 & 1 \\
     3  & 5 & 4 & 2 & 3 & 1 \\ \hline
+  \end{tabular}
+  
+  \vfill
+  \begin{tabular}{c c c c c}
+  Majority & & & & \\
+  A & & & &
   \end{tabular}
 \end{frame}
 
@@ -89,6 +98,12 @@
     3  & 5 & 4 & 2 & 3 & 1 \\ \hline
        &32 &{\bf \color{orange} 66} & & &
   \end{tabular}
+  
+  \vfill
+  \begin{tabular}{c c c c c}
+  Majority & Two turns & & & \\
+  A & B & & &
+  \end{tabular}
 \end{frame}
 
 \begin{frame}{\secname}
@@ -103,6 +118,12 @@
     9  & 5 & 2 & 4 & 3 & 1 \\
     3  & 5 & 4 & 2 & 3 & 1 \\ \hline
        &32 & 21 & 17 &16 &{\bf \color{red} 12}
+  \end{tabular}
+  
+  \vfill
+  \begin{tabular}{c c c c c}
+  Majority & Two turns & & & \\
+  A & B & & &
   \end{tabular}
 \end{frame}
 
@@ -119,6 +140,12 @@
     3  & 5 & 4 & 2 & 3 \\ \hline
        & - & - & - & -
   \end{tabular}
+  
+  \vfill
+  \begin{tabular}{c c c c c}
+  Majority & Two turns & & & \\
+  A & B & & &
+  \end{tabular}
 \end{frame}
 \begin{frame}{\secname}
   \framesubtitle{Elimination}
@@ -132,6 +159,12 @@
     9  & 4 & 1 & 3 & 2 \\
     3  & 4 & 3 & 1 & 2 \\ \hline
        & - & - & - & -
+  \end{tabular}
+  
+  \vfill
+  \begin{tabular}{c c c c c}
+  Majority & Two turns & & & \\
+  A & B & & &
   \end{tabular}
 \end{frame}
 \begin{frame}{\secname}
@@ -147,19 +180,11 @@
     3  & 4 & 3 & 1 & 2 \\ \hline
        &32 &30 &20 &{\bf \color{red} 16}
   \end{tabular}
-\end{frame}
-\begin{frame}{\secname}
-  \framesubtitle{Elimination}
-  \centering
-  \begin{tabular}{r | c c c |}
-       & A & B & C \\ \hline
-    32 & 1 & 4 & 3 \\
-    21 & 4 & 1 & 3 \\
-    17 & 4 & 2 & 1 \\
-    16 & 4 & 3 & 2 \\
-    9  & 4 & 1 & 3 \\
-    3  & 4 & 3 & 1 \\ \hline
-       & - & - & -
+  
+  \vfill
+  \begin{tabular}{c c c c c}
+  Majority & Two turns & & & \\
+  A & B & & &
   \end{tabular}
 \end{frame}
 \begin{frame}{\secname}
@@ -175,6 +200,12 @@
     3  & 3 & 2 & 1 \\ \hline
        & 32 & {\bf \color{red} 30} & 36
   \end{tabular}
+  
+  \vfill
+  \begin{tabular}{c c c c c}
+  Majority & Two turns & & & \\
+  A & B & & &
+  \end{tabular}
 \end{frame}
 \begin{frame}{\secname}
   \framesubtitle{Elimination}
@@ -189,6 +220,12 @@
     3  & 2 & 1 \\ \hline
        &{\bf \color{red} 32} &66
   \end{tabular}
+  
+  \vfill
+  \begin{tabular}{c c c c c}
+  Majority & Two turns & & & \\
+  A & B & & &
+  \end{tabular}
 \end{frame}
 \begin{frame}{\secname}
   \framesubtitle{Elimination}
@@ -201,6 +238,12 @@
     16 & 1 \\
     9  & 1 \\
     3  & 1 \\ \hline
+  \end{tabular}
+  
+  \vfill
+  \begin{tabular}{c c c c c}
+  Majority & Two turns & Elimination & & \\
+  A & B & C & &
   \end{tabular}
 \end{frame}
 
@@ -230,6 +273,12 @@
          &226&279&285&{\bf \color{orange}341}&339
     \end{tabular}
   \end{minipage}
+  
+  \vfill
+  \begin{tabular}{c c c c c}
+  Majority & Two turns & Elimination & Points & \\
+  A & B & C & D &
+  \end{tabular}
 \end{frame}
 
 \begin{frame}{\secname}
@@ -244,6 +293,12 @@
     7  & 5 & 2 & 4 & 3 & 1 \\
     3  & 5 & 4 & 2 & 3 & 1 \\ \hline
        & 32 &  &   &   &66
+  \end{tabular}
+  
+  \vfill
+  \begin{tabular}{c c c c c}
+  Majority & Two turns & Elimination & Points & \\
+  A & B & C & D &
   \end{tabular}
 \end{frame}
 
@@ -260,6 +315,12 @@
     3  & 5 & 4 & 2 & 3 & 1 \\ \hline
        &   &38 &   &   &60
   \end{tabular}
+  
+  \vfill
+  \begin{tabular}{c c c c c}
+  Majority & Two turns & Elimination & Points & \\
+  A & B & C & D &
+  \end{tabular}
 \end{frame}
 
 \begin{frame}{\secname}
@@ -275,6 +336,12 @@
     4  & 5 & 4 & 2 & 3 & 1 \\ \hline
        &   &   &33  &   &65
   \end{tabular}
+  
+  \vfill
+  \begin{tabular}{c c c c c}
+  Majority & Two turns & Elimination & Points & \\
+  A & B & C & D &
+  \end{tabular}
 \end{frame}
 \begin{frame}{\secname}
   \framesubtitle{Duel}
@@ -289,6 +356,12 @@
     4  & 5 & 4 & 2 & 3 & 1 \\ \hline
        &   &   &   &48 &50
   \end{tabular}
+  
+  \vfill
+  \begin{tabular}{c c c c c}
+  Majority & Two turns & Elimination & Points & \\
+  A & B & C & D &
+  \end{tabular}
 \end{frame}
 \begin{frame}{\secname}
   \framesubtitle{Duel}
@@ -302,6 +375,18 @@
     9  & 5 & 2 & 4 & 3 & 1 \\
     4  & 5 & 4 & 2 & 3 & 1 \\ \hline
   \end{tabular}
+  
+  \vfill
+  \begin{tabular}{c c c c c}
+  Majority & Two turns & Elimination & Points & Duel \\
+  A & B & C & D & E
+  \end{tabular}
+\end{frame}
+
+\begin{frame}{\secname}
+  \framesubtitle{Worldwide}
+  \centering
+    \includegraphics[width=0.9\linewidth]{world.png}
 \end{frame}
 
 \section{Social Choice Theory}
